@@ -1,1 +1,189 @@
+body {
+
+  background: #fff !important;
+  font-family: 'Poppins', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #1a1e21;
+}
+
+.section-title h2 {
+  text-shadow: 1px 1px 2px #4444;
+}
+
+
+nav {
+  background: #fff;
+  box-shadow: 0px 0px 5px #4444;
+}
+
+.navbar-brand h2 {
+  color: green;
+}
+
+.mr-2 {
+  margin-right: 10px;
+}
+
+header nav ul.action-menu .nav-item .nav-link {
+  margin: 0px 20px;
+  font-size: 18px;
+}
+.navbar-toggler {
+  outline: none;
+  outline-color: transparent;
+  padding: none;
+  border: none;
+  border-radius: none;
+  
+}
+
+@media(max-width: 567px){
+  
+}
+
+.aboutus {
+  border: 2px solid #007bff;
+  border-radius: 10px; 
+  padding: 20px; 
+  margin-bottom: 2
+  0px;
+}
+
+.streams {
+  background-color: #0084ff;
+  color: #fff; 
+  padding: 20px; 
+  text-align: center; 
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px;
+}
+
+.aboutus:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.aboutdes {
+  list-style-type: none; 
+  padding-left: 20px; 
+}
+
+.aboutdes li {
+  position: relative; 
+  padding-left: 30px;
+  margin-top: 20px; 
+}
+
+.aboutdes li::before {
+  content: "\21B3"; 
+  color: #007bff; 
+  font-size: 29px; 
+  position: absolute; 
+  left: 0; 
+  top: 50%; 
+  transform: translateY(-50%); 
+}
+
+.about .content {
+  padding: 0 80px;
+}
+
+.about .content h3 {
+  font-weight: 400;
+  font-size: 34px;
+  color: #5f5950;
+}
+
+.about .content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.about .content p {
+  font-size: 15px;
+  color: #848484;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li + li {
+  margin-top: 15px;
+}
+
+.about .content ul li {
+  position: relative;
+  padding-left: 26px;
+}
+
+.about .content ul i {
+  font-size: 20px;
+  color: #ffb03b;
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+
+@media (max-width: 1024px) {
+  .about .content, .about .accordion-list {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .about .content {
+    padding-top: 30px;
+  }
+  .about .accordion-list {
+    padding-bottom: 30px;
+  }
+}
+
+@-webkit-keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+
+@keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+
+.course .box {
+  padding: 10px 10px;
+  box-shadow: 20px 20px 15px rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 0.3s;
+}
+.course .box img{
+  border-radius: 20px;
+}
+.course .box span {
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffcf88;
+}
 
