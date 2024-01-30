@@ -68,19 +68,24 @@ header nav ul.action-menu .nav-item .nav-link {
 }
 
 #back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #007bff;
-    color: #fff;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-    cursor: pointer;
-    display: none;
-    z-index: 9999;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 63px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+  z-index: 9999;
+}
+
+#back-to-top i {
+  color: white;
+  font-size: 40px;
 }
 
 #loading-overlay {
