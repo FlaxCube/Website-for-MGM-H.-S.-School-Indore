@@ -2,385 +2,342 @@
 <html lang="en">
 
 <head>
-    <title>MGM School Indore</title>
-    <script src="assets/script.js"></script>
-    <!-- Required meta tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css">
-        
-    <!--Google Fonts-->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-
-    <!-- End Bootstrap CSS -->
-
-    <!--Custom Css-->
-    <link rel="stylesheet" href="assets/style.css">
-    <!--End Custom Css-->
+ <!-- Including necessary CSS and JavaScript libraries for styling and functionality -->
+<title>MGM H.S. School Indore</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script src="assets/script.js"></script>
+<link rel="stylesheet" href="assets/styles.css">
 </head>
 
 <body>
-    <!--Header Start-->
-    <header>
-        <!--Navbar Start-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand d-flex align-items-center" href="index.html">
-                    <img src="img/logo.png" alt="MGM School Logo" width="50" height="50" class="mr-2">
-                    <h2 class="fw-bold  mb-2 mb-lg-0 mb-sm-0">MGM H. S. School</h2>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="bi bi-list"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#streams">Streams</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#gallery">Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact us</a>
-                        </li>
-                    </ul>
-                  
-                </div>
-            </div>
-        </nav>
-        <!--Navbar End-->
-    </header>
-    <!--Header End-->
+   <!-- Loading overlay with an icon -->
+<div id="loading-overlay">
+    <div id="loading-icon"></div>
+</div>
 
+<!-- Anchor tag for scrolling to top -->
+<a id="top"></a>
 
-    <div id="carouselExampleCaptions" class="carousel slide mb-3" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-                aria-label="Slide 4"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="img-fluid w-100 h-100 overflow-hidden"
-                    src="img/ground.png"
-                    class="d-block w-100">
-            </div>
-            <div class="carousel-item">
-                <img class="img-fluid w-100 h-100 overflow-hidden"
-                    src="img/auditorium1.png"
-                    class="d-block w-100">
-            </div>
-            <div class="carousel-item">
-                <img class="img-fluid w-100 h-100 overflow-hidden"
-                    src="img/auditorium2.png"
-                    class="d-block w-100">
-            </div>
-            <div class="carousel-item">
-                <img class="img-fluid w-100 h-100 overflow-hidden"
-                    src="img/admission.png"
-                    class="d-block w-100">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+<!-- Button for scrolling back to top -->
+<div id="back-to-top">&uArr;</div>
 
-    <main id="main">
-
-        <!-- ======= About Section ======= -->
-        <section id="about" class="about mt-5">
-            <div class="container-fluid">
-                <h2 class="h1-responsive font-weight-bold text-center my-2 aboutus">What we Offers?</h2>
-                <!--Section description-->
-                <ul class="aboutdes"> 
-                    <li>M.G.M. Higher Secondary School Indore, a prestigious educational institution affiliated to the M.P. Board.</li>
-                    <li>We offer classes from nursery to XII in both science and commerce streams, with a well-disciplined atmosphere and interactive smart boards in all classrooms.</li>
-                    <li> Our well-equipped lab and co-curricular activities foster holistic development, facilitated by our team of well-trained teachers.</li>
-                    <li> We also provide bus facility to ensure that quality education is accessible to all.</li>
-                    <li> Admissions for the 2024-25 academic year are now open.</li>
+<!-- Header with navigation bar -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <!-- MGM School Logo -->
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="img/logo.png" alt="MGM School Logo" width="50" height="50" class="mr-2">
+                <h2 class="fw-bold mb-2 mb-lg-0 mb-sm-0">MGM H. S. School</h2>
+            </a>
+            <!-- Navbar Toggler Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="bi bi-list"></span>
+            </button>
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#streams">Streams</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact us</a>
+                    </li>
                 </ul>
             </div>
-        </section><!-- End About Section -->
+        </div>
+    </nav>
+</header>
 
-        <section id="streams">
-            <div class="container course pb-5 pt-5">
-                <h2 class="h1-responsive streams font-weight-bold text-center my-4">Streams after 10th</h2>
-                <!--Section description-->
-                <p class="text-center mx-auto mb-5">Our school offers specialized streams tailored to students' academic interests. We provide PCM for science and engineering enthusiasts, PCB for those passionate about life sciences and medicine, and Commerce for aspiring business and finance professionals. Each stream equips students with the skills and knowledge needed for higher education and careers in their chosen fields.</p>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card box">
-                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="https://cdn.pixabay.com/photo/2016/09/08/04/12/programmer-1653351_960_720.png"
-                                    class="img-fluid" />
-                                <a href="#!">
-                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">PCM (Physics, Chemistry, Maths)</h5>
-                                <p class="card-text">PCM stands for Physics, Chemistry, and Mathematics. In real life, PCM skills are used in various fields like engineering, technology, and research.</p>
-                                <div class="additional-content" style="display: none;">
-                                    <p>Physics helps understand how things work in the world, Chemistry deals with substances and their properties, and Mathematics is used for problem-solving and analysis. Together, these subjects help solve real-world problems, design new technologies, and make scientific discoveries.</p>
-                                </div>
-                                    <a href="#" class="btn btn-primary read-more">Read More</a>
-                            </div>
-                        </div>
+<!-- Image carousel for showcasing school pictures -->
+<div id="carouselExampleCaptions" class="carousel slide mb-3" data-bs-ride="carousel" aria-label="Image Carousel" role="listbox">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active" role="option">
+            <img class="img-fluid w-100 h-100 overflow-hidden" src="img/ground.png" class="d-block w-100" alt="Ground Image">
+        </div>
+        <div class="carousel-item" role="option">
+            <img class="img-fluid w-100 h-100 overflow-hidden" src="img/auditorium1.png" class="d-block w-100" alt="Auditorium Image 1">
+        </div>
+        <div class="carousel-item" role="option">
+            <img class="img-fluid w-100 h-100 overflow-hidden" src="img/auditorium2.png" class="d-block w-100" alt="Auditorium Image 2">
+        </div>
+        <div class="carousel-item" role="option">
+            <img class="img-fluid w-100 h-100 overflow-hidden" src="img/admission.png" class="d-block w-100" alt="Admission Image">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev" aria-label="Previous">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next" aria-label="Next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+    <!-- About Section -->
+    <section id="about" class="about mt-5">
+        <div class="container-fluid">
+            <!-- About Title -->
+            <h2 class="h1-responsive font-weight-bold text-center my-2 aboutus">What We Offer</h2>
+            <!-- About Description -->
+            <ul class="aboutdes">
+                <li>M.G.M. Higher Secondary School Indore, affiliated with the M.P. Board.</li>
+                <li>Offering classes from nursery to XII in science and commerce streams, with interactive classrooms.</li>
+                <li>Well-equipped lab and co-curricular activities for holistic development, guided by trained teachers.</li>
+                <li>Accessible education with bus facilities to ensure quality education for all.</li>
+                <li>Admissions open for the 2024-25 academic year.</li>
+            </ul>
+        </div>
+    </section>
+
+   <!-- Streams Section -->
+<section id="streams">
+    <div class="container course pb-5 pt-5">
+        <h2 class="h1-responsive streams font-weight-bold text-center my-4">Streams after 10th</h2>
+        <p class="text-center mx-auto mb-5">Discover specialized streams tailored to students' interests:
+            PCM for science and engineering, PCB for life sciences and medicine, and Commerce for business and finance.</p>
+        <!-- Streams Cards -->
+        <div class="row">
+            <!-- PCM Stream Card -->
+            <div class="col-md-4">
+                <div class="card box">
+                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img src="https://cdn.pixabay.com/photo/2016/09/08/04/12/programmer-1653351_960_720.png"
+                            class="img-fluid" />
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
                     </div>
-
-                    <div class="col-md-4">
-                        <div class="card box">
-                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="https://cdn.pixabay.com/photo/2017/08/10/03/30/stethoscope-2617701_1280.jpg"
-                                    class="img-fluid" />
-                                <a href="#!">
-                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">PCB (Physics, Chemistry, Bio)</h5>
-                                <p class="card-text">PCB stands for Physics, Chemistry, and Biology. In real life, PCB skills are essential for careers in medicine, healthcare, and biological sciences.</p>
-                                <div class="additional-content" style="display: none;">
-                                    <p>Physics helps understand the laws of nature, Chemistry deals with the composition and reactions of substances, and Biology explores living organisms and their functions. These subjects are crucial for diagnosing illnesses, developing treatments, and understanding the natural world.</p>
-                                </div>
-                                    <a href="#" class="btn btn-primary read-more">Read More</a>
-                            </div>
+                    <div class="card-body">
+                        <h5 class="card-title">PCM (Physics, Chemistry, Maths)</h5>
+                        <p class="card-text">Ideal for engineering and technology enthusiasts.</p>
+                        <div class="additional-content" style="display: none;">
+                            <p>Physics helps understand how things work in the world, Chemistry deals with substances and their properties, and Mathematics is used for problem-solving and analysis. Together, these subjects help solve real-world problems, design new technologies, and make scientific discoveries.</p>
                         </div>
+                        <a href="#" class="btn btn-primary read-more">Read More</a>
                     </div>
+                </div>
+            </div>
+            <!-- PCB Stream Card -->
+            <div class="col-md-4">
+                <div class="card box">
+                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img src="https://cdn.pixabay.com/photo/2017/08/10/03/30/stethoscope-2617701_1280.jpg"
+                            class="img-fluid" />
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">PCB (Physics, Chemistry, Bio)</h5>
+                        <p class="card-text">Perfect for aspiring medical and healthcare professionals.</p>
+                        <div class="additional-content" style="display: none;">
+                            <p>Physics helps understand the laws of nature, Chemistry deals with the composition and reactions of substances, and Biology explores living organisms and their functions. These subjects are crucial for diagnosing illnesses, developing treatments, and understanding the natural world.</p>
+                        </div>
+                        <a href="#" class="btn btn-primary read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Commerce Stream Card -->
+            <div class="col-md-4">
+                <div class="card box">
+                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img src="https://cdn.pixabay.com/photo/2014/07/06/13/55/calculator-385506_1280.jpg"
+                            class="img-fluid" />
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Commerce</h5>
+                        <p class="card-text">For those interested in finance, entrepreneurship, and business management.</p>
+                        <div class="additional-content" style="display: none;">
+                            <p>Economics helps comprehend how money flows in society, Accountancy involves keeping track of financial records, and Business Studies covers topics like marketing and management. Together, these subjects are fundamental for careers in finance, entrepreneurship, and business management.</p>
+                        </div>
+                        <a href="#" class="btn btn-primary read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-                    <div class="col-md-4">
-                        <div class="card box">
-                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="https://cdn.pixabay.com/photo/2014/07/06/13/55/calculator-385506_1280.jpg"
-                                    class="img-fluid" />
-                                <a href="#!">
-                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Commerce</h5>
-                                <p class="card-text">In the field of Commerce, subjects like Economics, Accountancy, and Business Studies are vital. They're used in everyday life for managing finances, running businesses, and understanding the economy.</p>
-                                <div class="additional-content" style="display: none;">
-                                    <p>Economics helps comprehend how money flows in society, Accountancy involves keeping track of financial records, and Business Studies covers topics like marketing and management. Together, these subjects are fundamental for careers in finance, entrepreneurship, and business management.</p>
+  <!-- Gallery Section -->
+<section id="gallery">
+    <div class="container">
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Memories in Frames</h2>
+        <p class="text-center w-responsive mx-auto mb-5">Explore the magic of our annual function gallery, capturing the
+            festive cheer and enchanting performances of our Christmas celebrations. From vibrant decorations to
+            heartwarming moments, this collection encapsulates the joy and spirit of the holiday season.</p>
+        <!-- Gallery Images -->
+        <div class="row">
+            <!-- Gallery Column 1 -->
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img src="img/gallery1.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+                <img src="img/gallery2.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+            </div>
+            <!-- Gallery Column 2 -->
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img src="img/gallery3.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+                <img src="img/gallery4.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+                <img src="img/gallery5.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+            </div>
+            <!-- Gallery Column 3 -->
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img src="img/gallery6.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+                <img src="img/gallery7.jpg" class="w-100 shadow-1-strong rounded mb-4" />
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+<section id="contact">
+    <div class="container mb-5">
+        <!-- Contact Form -->
+        <section class="mb-4">
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Us for Admission</h2>
+            <p class="text-center w-responsive mx-auto mb-5">Interested in joining our vibrant academic community? Fill
+                out the form below to start your journey towards becoming a part of our school family.</p>
+            <div class="row">
+                <!-- Contact Form Column -->
+                <div class="col-md-6 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="" method="POST">
+                        <div class="row">
+                            <!-- Name Input -->
+                            <div class="col-md-12">
+                                <div class="md-form mb-3">
+                                    <label for="name" class="">*Your name</label>
+                                    <input type="text" id="name" name="name" class="form-control" required>
                                 </div>
-                                    <a href="#" class="btn btn-primary read-more">Read More</a>
+                            </div>
+                            <!-- Email Input -->
+                            <div class="col-md-12">
+                                <div class="md-form mb-3">
+                                    <label for="email" class="">*Your email</label>
+                                    <input type="email" id="email" name="email" class="form-control" required>
+                                </div>
+                            </div>
+                            <!-- Admission Class Selection -->
+                            <div class="col-md-12">
+                                <div class="md-form mb-3">
+                                    <label for="subject" class="">*Class of Admission</label>
+                                    <select id="admission_class" name="admission_class" class="form-control" required>
+                                        <option value="">Select Admission Class</option>
+                                        <option value="Nursery">Nursery</option>
+                                        <option value="LKG">LKG</option>
+                                        <option value="UKG">UKG</option>
+                                        <option value="Class 1">Class 1</option>
+                                        <option value="Class 2">Class 2</option>
+                                        <option value="Class 3">Class 3</option>
+                                        <option value="Class 4">Class 4</option>
+                                        <option value="Class 5">Class 5</option>
+                                        <option value="Class 6">Class 6</option>
+                                        <option value="Class 7">Class 7</option>
+                                        <option value="Class 8">Class 8</option>
+                                        <option value="Class 9">Class 9</option>
+                                        <option value="Class 10">Class 10</option>
+                                        <option value="Class 11">Class 11</option>
+                                        <option value="Class 12">Class 12</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- Message Input -->
+                            <div class="col-md-12">
+                                <div class="md-form mb-3">
+                                    <label for="message">*Write your query</label>
+                                    <textarea id="message" name="message" rows="4" class="form-control md-textarea"
+                                        required></textarea>
+                                </div>
+                            </div>
+                            <!-- Submit Button -->
+                            <div class="col-md-12">
+                                <div class="text-center text-md-left">
+                                    <button type="submit" class="btn btn-primary">Send</button>
+                                </div>
                             </div>
                         </div>
+                    </form>
+                </div>
+                <!-- Google Map Column -->
+                <div class="col-md-6">
+                    <div class="text-center">
+                        <!-- Google Map Embed -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.814346329827!2d75.90048217515573!3d22.735140879376253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962e2b3bcb54625%3A0xefb0c9f33c1a38c4!2sMGM%20H.S.%20School%2C%20Indore!5e0!3m2!1sen!2sin!4v1706540172869!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
         </section>
+    </div>
+</section>
 
-        <section id="gallery">
-            <div class="container">
-                <h2 class="h1-responsive font-weight-bold text-center my-4">Memories in Frames</h2>
-                <!--Section description-->
-                <p class="text-center w-responsive mx-auto mb-5">Step into a world of festive cheer and enchanting performances as you explore our annual function gallery, highlighting the magical moments of our Christmas celebrations. From vibrant decorations to heartwarming performances, this collection encapsulates the joy and spirit of the holiday season.</p>
-                <!-- Gallery -->
-                <div class="row">
-                    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                        <img src="img/gallery1.jpg"
-                            class="w-100 shadow-1-strong rounded mb-4"/>
-
-                        <img src="img/gallery2.jpg"
-                            class="w-100 shadow-1-strong rounded mb-4"/>
-                    </div>
-
-                    <div class="col-lg-4 mb-4 mb-lg-0">
-                        <img src="img/gallery3.jpg"
-                            class="w-100 shadow-1-strong rounded mb-4"/>
-
-                        <img src="img/gallery4.jpg"
-                            class="w-100 shadow-1-strong rounded mb-4"/>
-
-                        <img src="img/gallery41.jpg"
-                            class="w-100 shadow-1-strong rounded mb-4"/>
-                    </div>
-
-                    <div class="col-lg-4 mb-4 mb-lg-0">
-                        <img src="img/gallery5.jpg"
-                            class="w-100 shadow-1-strong rounded mb-4"/>
-
-                        <img src="img/gallery6.jpg"
-                            class="w-100 shadow-1-strong rounded mb-4"/>
-                    </div>
+<!-- Footer Section -->
+<footer class="text-center text-lg-start bg-primary py-3 text-white">
+    <!-- Contact and Information Section -->
+    <section class="">
+        <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+                <!-- MGM School Description -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        <i class="bi bi-mortarboard me-3"></i>MGM H. S. School Indore
+                    </h6>
+                    <p>With a rich tradition of academic achievement and a focus on holistic development, MGM School is where
+                        futures are shaped and dreams are realized.</p>
                 </div>
-                <!-- Gallery -->
-            </div>
-        </section>
-        
-        <section id="contact">
-            <div class="container mb-5">
-                <!--Section: Contact v.2-->
-                <section class="mb-4">
-                    <!--Section heading-->
-                    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Us for Admission</h2>
-                    <!--Section description-->
-                    <p class="text-center w-responsive mx-auto mb-5">Interested in joining our vibrant academic community? Fill out the form below to start your journey towards becoming a part of our school family.</p>
-        
-                    <div class="row">
-                        <!--Grid column for form-->
-                        <div class="col-md-6 mb-md-0 mb-5">
-                            <form id="contact-form" name="contact-form" action="assets/form.php" method="POST">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="md-form mb-3">
-                                            <label for="name" class="">*Your name</label>
-                                            <input type="text" id="name" name="name" class="form-control" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="md-form mb-3">
-                                            <label for="email" class="">*Your email</label>
-                                            <input type="email" id="email" name="email" class="form-control" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="md-form mb-3">
-                                            <label for="subject" class="">*Class of Admission</label>
-                                            <select id="admission_class" name="admission_class" class="form-control" required>
-                                                <option value="">Select Admission Class</option>
-                                                <option value="Nursery">Nursery</option>
-                                                <option value="LKG">LKG</option>
-                                                <option value="UKG">UKG</option>
-                                                <option value="Class 1">Class 1</option>
-                                                <option value="Class 2">Class 2</option>
-                                                <option value="Class 3">Class 3</option>
-                                                <option value="Class 4">Class 4</option>
-                                                <option value="Class 5">Class 5</option>
-                                                <option value="Class 6">Class 6</option>
-                                                <option value="Class 7">Class 7</option>
-                                                <option value="Class 8">Class 8</option>
-                                                <option value="Class 9">Class 9</option>
-                                                <option value="Class 10">Class 10</option>
-                                                <option value="Class 11">Class 11</option>
-                                                <option value="Class 12">Class 12</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="md-form mb-3">
-                                            <label for="message">*Write your query</label>
-                                            <textarea id="message" name="message" rows="4" class="form-control md-textarea" required></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="text-center text-md-left">
-                                            <button type="submit" class="btn btn-primary">Send</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                        <!--Grid column for map-->
-                        <div class="col-md-6">
-                            <div class="text-center">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.814346329827!2d75.90048217515573!3d22.735140879376253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962e2b3bcb54625%3A0xefb0c9f33c1a38c4!2sMGM%20H.S.%20School%2C%20Indore!5e0!3m2!1sen!2sin!4v1706540172869!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!--Section: Contact v.2-->
-            </div>
-        </section>        
-
-
-        <!-- Footer -->
-        <footer class="text-center text-lg-start bg-primary py-3 text-white">
-          
-            <!-- Section: Social media -->
-
-            <!-- Section: Links  -->
-            <section class="">
-                <div class="container text-center text-md-start mt-5">
-                    <!-- Grid row -->
-                    <div class="row mt-3">
-
-                          <!-- Content -->
-                          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                          
-                          <h6 class="text-uppercase fw-bold mb-4">
-                            <i class="bi bi-gem me-3"></i>MGM H. S. School Indore
-                        </h6>
-                        <p>With a rich tradition of academic achievement and a focus on holistic development, MGM School is where futures are shaped and dreams are realized.</p>
-                    </div>
-                    <!-- Grid column -->
-
-                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4">
-                                Useful links
-                            </h6>
-                            <p>
-                                <a href="#about" class="text-reset">About Us</a>
-                            </p>
-                            <p>
-                                <a href="#streams" class="text-reset">Streams</a>
-                            </p>
-                            <p>
-                                <a href="#gallery" class="text-reset">Gallery</a>
-                            </p>
-                            <p>
-                                <a href="#contact" class="text-reset">Contact US</a>
-                            </p>
-                        </div>
-                        <!-- Grid column -->
-
-                        <!-- Grid column -->
-                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4">Get in Touch</h6>
-                            <p><i class="bi bi-geo me-3"></i>Ring Road, Khajrana, Kanadia, P.O. <br> Indore 452016 (MP)</p>
-                            <p><i class="bi bi-envelope me-3"></i>mgmschoolindore@gmail.com</p>
-                            <p><i class="bi bi-phone me-3"></i> +91 91090 42239</p>
-                            <p><i class="bi bi-phone me-3"></i> +91 63593 86000</p>
-                        </div>
-                        <!-- Grid column -->
-                    </div>
-                    <!-- Grid row -->
+                <!-- Useful Links -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4"> <i class="bi bi-link me-3"></i>Useful links</h6>
+                    <p>
+                        <a href="#about" class="text-reset">About Us</a>
+                    </p>
+                    <p>
+                        <a href="#streams" class="text-reset">Streams</a>
+                    </p>
+                    <p>
+                        <a href="#gallery" class="text-reset">Gallery</a>
+                    </p>
+                    <p>
+                        <a href="#contact" class="text-reset">Contact US</a>
+                    </p>
                 </div>
-            </section>
-            <!-- Section: Links  -->
-
-            <!-- Copyright -->
-            <div class="text-center py-4" style="background-color: rgba(0, 0, 0, 0.05);">
-                © 2024 - MGM H. S. School Indore
-          </div>
-            <!-- Copyright -->
-        </footer>
-        <!-- Footer -->
-        <!-- Option 1: Bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous"></script>
+                <!-- Contact Information -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4"><i class="bi bi-info-circle me-3"></i>Get in Touch</h6>
+                    <p><i class="bi bi-geo me-3"></i>Ring Road, Khajrana, Kanadia, P.O. <br> Indore 452016 (MP)</p>
+                    <p><i class="bi bi-envelope me-3"></i>mgmschoolindore@gmail.com</p>
+                    <p><i class="bi bi-phone me-3"></i>+91 91090 42239</p>
+                    <p><i class="bi bi-phone me-3"></i>+91 63593 86000</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Copyright Section -->
+    <div class="text-center py-4" style="background-color: rgba(1, 11, 185, 0.555);">
+        © 2024 - MGM H. S. School Indore <br> Made With ❤️ By Shivam
+    </div>
+</footer>
 
 </body>
-
 </html>
