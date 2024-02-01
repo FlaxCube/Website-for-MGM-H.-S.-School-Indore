@@ -18,20 +18,12 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Contact form Error if user does not fill out all fields
-document.addEventListener("DOMContentLoaded", function() {
-    var form = document.getElementById("contact-form");
-
-    form.addEventListener("submit", function(event) {
-        var name = document.getElementById("name").value;
-        var email = document.getElementById("email").value;
-        var subject = document.getElementById("subject").value;
-        var message = document.getElementById("message").value;
-
-        if (!name || !email || !subject || !message) {
-            alert("Please fill in all fields.");
-            event.preventDefault();
-        }
+document.addEventListener('DOMContentLoaded', function() {
+    var form = document.getElementById('contact-form');
+    var thankYouMsg = document.getElementById('thank-you-msg');
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+        thankYouMsg.style.display = 'block';
     });
 });
 
@@ -60,4 +52,3 @@ document.addEventListener("DOMContentLoaded", function() {
         loadingOverlay.style.display = "none";
     });
 });
-
