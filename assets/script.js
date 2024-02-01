@@ -64,7 +64,7 @@ var ready = function() {
     email = document.getElementById("email").value;
     admission_class = document.getElementById("admission_class").value;
     message = document.getElementById("message").value;
-    message = "Name: " + u_name + "\nEmail: " + email + "\nAdmission in Class: " + admission_class + "\nMessage: " + message;
+    message = "Name: " + u_name + "\nEmail: " + email + "\nAdmission in: " + admission_class + "\nMessage: " + message;
 };
 
 var sender = function() {
