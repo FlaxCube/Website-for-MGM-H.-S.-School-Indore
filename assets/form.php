@@ -30,4 +30,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Handle invalid requests or display an error message
     echo "Invalid request.";
 }
-?>
