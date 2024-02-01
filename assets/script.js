@@ -60,3 +60,24 @@ document.addEventListener("DOMContentLoaded", function() {
         loadingOverlay.style.display = "none";
     });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    var form = document.getElementById("contact-form");
+
+    form.addEventListener("submit", function(event) {
+        var formData = {
+            name: document.getElementById("name").value,
+            email: document.getElementById("email").value,
+            admission_class: document.getElementById("admission_class").value,
+            message: document.getElementById("message").value
+        };
+
+        // Store form data in localStorage
+        localStorage.setItem("formData", JSON.stringify(formData));
+
+        alert("Thank you for your inquiry! We will get back to you soon.");
+
+        // Prevent form submission
+        event.preventDefault();
+    });
+});
