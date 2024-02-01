@@ -1,20 +1,33 @@
 <?php
-// Check if form data is posted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Retrieve form data
-    $formData = array(
-        "name" => $_POST["name"],
-        "email" => $_POST["email"],
-        "admission_class" => $_POST["admission_class"],
-        "message" => $_POST["message"]
-    );
+    $name = $_POST["name"];
+    $email = $_POST["email"];
+    $subject = $_POST["subject"];
+    $message = $_POST["message"];
+    $admission_class = $_POST["admission_class"]; // Added for admission class dropdown
 
-    // Store form data in a JSON file
-    file_put_contents("form_data.json", json_encode($formData));
+    // Replace with your email address
+    $to = "rgroyalgaming6@gmail.com";
 
-    // Send response
+    // Email subject
+    $email_subject = "New Admission Inquiry: $subject";
+
+    // Email content
+    $email_body = "You have received a new admission inquiry.\n\n" .
+        "Name: $name\n" .
+        "Email: $email\n" .
+        "Admission Class: $admission_class\n" . // Added for admission class dropdown
+        "Subject: $subject\n" .
+        "Message:\n$message";
+
+    // Send email
+    mail($to, $email_subject, $email_body);
+
+    // Redirect or display success message
+    // header("Location: success.html"); // Uncomment this line to redirect to a success page
     echo "Thank you for your inquiry! We will get back to you soon.";
 } else {
+    // Handle invalid requests or display an error message
     echo "Invalid request.";
 }
 ?>
