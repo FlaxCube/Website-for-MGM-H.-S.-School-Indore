@@ -18,15 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-    var form = document.getElementById('contact-form');
-    var thankYouMsg = document.getElementById('thank-you-msg');
-    form.addEventListener('submit', function(event) {
-        event.preventDefault();
-        thankYouMsg.style.display = 'block';
-    });
-});
-
 // Arrow to go back to the top of the web
 document.addEventListener("DOMContentLoaded", function() {
     var backToTop = document.getElementById("back-to-top");
@@ -46,6 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+// Loading animation
 document.addEventListener("DOMContentLoaded", function() {
     var loadingOverlay = document.getElementById("loading-overlay");
     window.addEventListener("load", function() {
@@ -53,9 +45,8 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-// bot token
+// Contact Form Integration
 var telegram_bot_id = "6715737387:AAFn-0IrdGZZ32PATBTceGKJPBwC10icYUE";
-// chat id
 var chat_id = 5886671961;
 var u_name, email, admission_class, message;
 
