@@ -46,8 +46,8 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 // Contact Form Integration
-var telegram_bot_id = "6715737387:AAFn-0IrdGZZ32PATBTceGKJPBwC10icYUE";
-var chat_id = 5886671961;
+var telegram_bot_id = "7022504752:AAGgl5X0uJCIWXZe4LbcDaC7lB0MqzaWejg";
+var chat_id = 6600297855;
 var u_name, email, admission_class, message;
 
 var ready = function() {
